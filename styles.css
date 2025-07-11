@@ -1,0 +1,28 @@
+
+
+body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+        /* Animación suave para el acordeón de FAQ */
+        .faq-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.5s ease-in-out;
+        }
+        /* Estilos para el Bot de Ayuda */
+        #chat-widget-container {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            z-index: 1000;
+        }
+        #chat-window {
+            width: 350px;
+            max-height: 500px;
+            transition: all 0.3s ease-in-out;
+            transform-origin: bottom left;
+        }
+        .chat-bubble {
+            max-width: 80%;
+        }
